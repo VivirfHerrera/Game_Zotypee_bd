@@ -60,11 +60,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PInstrucciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PInstrucciones.Designer.cs">
+      <DependentUpon>PInstrucciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lvl1-principiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lvl1-principiante.Designer.cs">
+      <DependentUpon>lvl1-principiante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lvl2_interemedio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lvl2_interemedio.Designer.cs">
+      <DependentUpon>lvl2_interemedio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lvl3-Avanzado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lvl3-Avanzado.Designer.cs">
+      <DependentUpon>lvl3-Avanzado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pinicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pinicio.Designer.cs">
+      <DependentUpon>Pinicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pconfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pconfig.Designer.cs">
+      <DependentUpon>Pconfig.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pcarga.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Pcarga.Designer.cs">
       <DependentUpon>Pcarga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PconfigBD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PconfigBD.Designer.cs">
+      <DependentUpon>PconfigBD.cs</DependentUpon>
     </Compile>
     <Compile Include="PMenu.cs">
       <SubType>Form</SubType>
@@ -72,10 +114,43 @@
     <Compile Include="PMenu.Designer.cs">
       <DependentUpon>PMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Precords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Precords.Designer.cs">
+      <DependentUpon>Precords.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="lvl1-principiante.resx">
+      <DependentUpon>lvl1-principiante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lvl2_interemedio.resx">
+      <DependentUpon>lvl2_interemedio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lvl3-Avanzado.resx">
+      <DependentUpon>lvl3-Avanzado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pcarga.resx">
       <DependentUpon>Pcarga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pconfig.resx">
+      <DependentUpon>Pconfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PconfigBD.resx">
+      <DependentUpon>PconfigBD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pinicio.resx">
+      <DependentUpon>Pinicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PInstrucciones.resx">
+      <DependentUpon>PInstrucciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PMenu.resx">
+      <DependentUpon>PMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Precords.resx">
+      <DependentUpon>Precords.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

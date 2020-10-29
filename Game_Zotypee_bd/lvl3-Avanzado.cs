@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Game_Zotypee_bd
 {
-    public partial class PMenu : Form
+    public partial class lvl3_Avanzado : Form
     {
-        public PMenu()
+        public lvl3_Avanzado()
         {
             InitializeComponent();
-        }
-
-        private void PMenu_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnConfig_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

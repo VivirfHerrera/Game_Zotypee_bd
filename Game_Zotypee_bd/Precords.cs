@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Game_Zotypee_bd
 {
-    public partial class PMenu : Form
+    public partial class Precords : Form
     {
-        public PMenu()
+        public Precords()
         {
             InitializeComponent();
-        }
-
-        private void PMenu_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnConfig_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
